@@ -14,13 +14,13 @@ const Boss = () => {
           "to give you an immersive learning experience and help you ace  in your tech career"
         }
       />
-      <div className="flex mt-10">
-        <div className="bg-F5F9FF  w-auto h-4/5  mb-6">
+      <div className="flex mt-10 items-start justify-between">
+        <div className="bg-F5F9FF  mb-6  rounded-r-lg mt-20 p-2">
           {array2.map((item, index) => (
             <Row image={item.icon} text={item.text} key={index} />
           ))}
         </div>
-        <div>
+        <div className="w-7/12">
           <Image src="/5.png" alt="ok" width={600} height={300} />
         </div>
       </div>
