@@ -16,6 +16,15 @@ const config: Config = {
         bg: "#2266C0",
         border: "#004AAD",
       },
+      width: {
+        card: "15vw",
+        img: "1278px",
+        "20vw": "13vw",
+      },
+      height: {
+        card: "15vh",
+        img: "908px",
+      },
     },
   },
   plugins: [],

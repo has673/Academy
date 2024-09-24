@@ -1,4 +1,5 @@
 import Heading from "@/Components/Heading";
+import Place from "@/Components/Place";
 import SubHeading from "@/Components/SubHeading";
 import Image from "next/image";
 
@@ -39,6 +40,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Place />
     </>
   );
 }
