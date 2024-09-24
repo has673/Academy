@@ -1,3 +1,4 @@
+import Boss from "@/Components/Boss";
 import Heading from "@/Components/Heading";
 import Place from "@/Components/Place";
 import SubHeading from "@/Components/SubHeading";
@@ -40,6 +41,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Boss />
       <Place />
     </>
   );
