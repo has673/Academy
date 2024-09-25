@@ -3,6 +3,8 @@ import Heading from "@/Components/Heading";
 import Place from "@/Components/Place";
 import SubHeading from "@/Components/SubHeading";
 import Image from "next/image";
+import array3 from "./data/array3";
+import Program from "@/Components/Program";
 
 export default function Home() {
   return (
@@ -40,6 +42,16 @@ export default function Home() {
             }
           />
         </div>
+        {array3.map((item, index) => (
+          <div className="flex flex-col items-center">
+            <Program
+              icon={item.icon}
+              text={item.text}
+              heading={item.heading}
+              key={index}
+            />
+          </div>
+        ))}
       </div>
       <Boss />
       <Place />
