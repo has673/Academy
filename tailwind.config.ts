@@ -25,6 +25,9 @@ const config: Config = {
         card: "15vh",
         img: "908px",
       },
+      fontSize: {
+        "34px": "34px",
+      },
     },
   },
   plugins: [],
