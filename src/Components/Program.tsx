@@ -7,16 +7,20 @@ const Program: React.FC<{ icon: string; heading: string; text: string }> = ({
   text,
 }) => {
   return (
-    <div className="text-center flex flex-col items-center border-2 border-border p-2 my-5 rounded-lg">
+    <div className="text-center flex flex-col items-center border-2 border-border  my-5 rounded-lg ">
       <Image
         src={icon}
         alt="icon"
-        width={300}
-        height={400}
-        className="flex justify-center"
+        width={0}
+        height={0}
+        objectFit="cover"
+        style={{ width: "100%", height: "auto" }}
       />
-      <h3>{heading}</h3>
-      <h5>{text}</h5>
+      <div className="p-8 bg-F5F9FF w-full">
+        {" "}
+        <h3 className="text-6xl my-5">{heading}</h3>
+        <h5 className="text-4xl p-3 mb-5 text-justify">{text}</h5>
+      </div>
     </div>
   );
 };

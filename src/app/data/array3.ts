@@ -1,6 +1,6 @@
 const array3 = [
   {
-    icon: "/8.png",
+    icon: "/19.jfif",
     heading: "For Collage Students",
     text: "Who want to rocket-start their career and get placed in thier dream companies",
   },
