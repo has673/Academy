@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <div className="flex justify-around gap-5 mt-6  mb-10">
-        <div>
+      <div className="flex justify-between gap-5 mt-6  mb-10">
+        <div className="ml-10%">
           <div>
             <img src="./logo.png" width={140}></img>
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
             <h5 className=" text-black font-semibold">Based Companies</h5>
           </div>
         </div>
-        <div className="flex gap-20">
+        <div className="flex gap-20 mr-10%">
           <div>
             <h4 className="text-border font-semibold p-2">About</h4>
             <h5 className="py-1">Programs</h5>

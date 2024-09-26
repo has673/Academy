@@ -26,6 +26,9 @@ const config: Config = {
         card: "15vh",
         img: "908px",
       },
+      margin: {
+        "10%": "10%",
+      },
       fontSize: {
         "34px": "34px",
       },
