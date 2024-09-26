@@ -2,7 +2,6 @@ import Boss from "@/Components/Boss";
 import Heading from "@/Components/Heading";
 import Place from "@/Components/Place";
 import SubHeading from "@/Components/SubHeading";
-import Image from "next/image";
 import array3 from "./data/array3";
 import Program from "@/Components/Program";
 import Button from "@/Components/Button";
