@@ -10,8 +10,8 @@ import Button from "@/Components/Button";
 export default function Home() {
   return (
     <>
-      <div>
-        <div id="back" className="w-full h-1/6 flex justify-between">
+      <div id="back">
+        <div className="w-full h-1/6 flex justify-between">
           <div className=" ml-6 mt-10">
             <h1 className="text-white font-semibold text-4xl">
               Grab your Dream tech
@@ -29,6 +29,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
+
           <div>
             <img
               id="img"
@@ -41,7 +42,7 @@ export default function Home() {
             ></img>
           </div>
         </div>
-        <div>
+        <div className="flex justify-between mb-19 ml-10">
           {" "}
           <Button text={"Apply Now"} />
         </div>
