@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <img src="/7.png"></img>
+        <img alt="7" src="/7.png"></img>
         <div className="text-center font-bold">
           {" "}
           <Heading text="Our Programs" />

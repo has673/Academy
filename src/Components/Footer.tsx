@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex justify-between gap-5 mt-6  mb-10">
         <div className="ml-10%">
           <div>
-            <img src="./logo.png" width={140}></img>
+            <img src="./logo.png" width={140} alt="footer"></img>
           </div>
 
           <div className="mb-3">
