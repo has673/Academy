@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div id="back">
         <div className="w-full h-1/6 flex justify-between">
-          <div className=" ml-6 mt-10">
+          <div className=" ml-6 mt-10 w-full">
             <h1 className="text-white font-semibold text-4xl">
               Grab your Dream tech
             </h1>
@@ -28,6 +28,9 @@ export default function Home() {
                 less in their tech careers
               </li>
             </ul>
+            <div className="ml-10  ">
+              <Button text={"Apply Now"} />
+            </div>
           </div>
 
           <div>
@@ -41,10 +44,6 @@ export default function Home() {
               }}
             ></img>
           </div>
-        </div>
-        <div className="flex justify-between mb-19 ml-10">
-          {" "}
-          <Button text={"Apply Now"} />
         </div>
       </div>
       <div>

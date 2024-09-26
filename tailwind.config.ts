@@ -20,6 +20,7 @@ const config: Config = {
         card: "15vw",
         img: "1278px",
         "20vw": "13vw",
+        "100%": "100%",
       },
       height: {
         card: "15vh",
