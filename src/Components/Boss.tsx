@@ -21,7 +21,7 @@ const Boss = () => {
           ))}
         </div>
         <div className="w-7/12">
-          <Image src="/5.png" alt="ok" width={600} height={300} />
+          <Image src="/5.png" alt="ok" width={1000} height={10} />
         </div>
       </div>
     </div>
